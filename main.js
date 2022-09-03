@@ -42,9 +42,9 @@ function init_faceFilter(videoSettings){
     JEELIZFACEFILTER.init({
         followZRot: true,
         canvasId: 'jeeFaceFilterCanvas',
-        //NNCPath: '../../../neuralNets/', // root of NN_DEFAULT.json file
+        NNCPath: './neuralNets/', // root of NN_DEFAULT.json file
         maxFacesDetected: 1,
-        callbackReady: function(errCode, spec){
+        callbackReady: function(errCode, spec) {
             if (errCode){
                 console.log('AN ERROR HAPPENS. ERR =', errCode);
                 return;
