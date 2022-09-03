@@ -60,9 +60,11 @@ function main(){
         canvasId: 'jeeFaceFilterCanvas',
         isFullScreen: true,
         callback: start,
+        /*
         onResize: function(){
             JeelizThreeHelper.update_camera(THREECAMERA);
         }
+         */
     })
 }
 
