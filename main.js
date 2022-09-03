@@ -22,6 +22,25 @@ function init_threeScene(spec) {
     threeCube.frustumCulled = false;
     threeStuffs.faceObject.add(threeCube);
 
+    // GLB MODEL
+    const loader = new GLTFLoader();
+    loader.load(
+        // resource URL
+        './glb/source/Allosaurus.glb',
+        // called when the resource is loaded
+        function ( gltf ) {
+            threeStuffs.faceObject.add(gltf);
+        },
+        // called while loading is progressing
+        function ( xhr ) {
+            console.log( ( xhr.loaded / xhr.total * 100 ) + '% loaded' );
+        },
+        // called when loading has errors
+        function ( error ) {
+            console.log( 'An error glb happened' );
+        }
+    );
+
     //CREATE THE CAMERA
     THREECAMERA = JeelizThreeHelper.create_camera();
 }
