@@ -20,7 +20,7 @@ function init_threeScene(spec) {
     const cubeMaterial = new THREE.MeshNormalMaterial();
     const threeCube = new THREE.Mesh(cubeGeometry, cubeMaterial);
     threeCube.frustumCulled = false;
-    threeStuffs.faceObject.add(threeCube);
+    //threeStuffs.faceObject.add(threeCube);
 
     // GLB MODEL
     const loader = new GLTFLoader();
@@ -30,6 +30,7 @@ function init_threeScene(spec) {
         // called when the resource is loaded
         function ( gltf ) {
             threeStuffs.faceObject.add(gltf);
+            console.log("DONE");
         },
         // called while loading is progressing
         function ( xhr ) {
