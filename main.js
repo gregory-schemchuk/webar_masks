@@ -23,7 +23,7 @@ function init_threeScene(spec) {
     //threeStuffs.faceObject.add(threeCube);
 
     // GLB MODEL
-    const loader = new GLTFLoader();
+    const loader = new THREE.GLTFLoader();
     loader.load(
         // resource URL
         './glb/source/Allosaurus.glb',
