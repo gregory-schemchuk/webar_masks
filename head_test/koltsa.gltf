@@ -84,13 +84,13 @@
   ],
   "images": [
     {
-      "uri": "02 - Default_baseColor.png"
+      "uri": "Default_baseColor.png"
     },
     {
-      "uri": "02 - Default_occlusionRoughnessMetallic.png"
+      "uri": "Default_occlusionRoughnessMetallic.png"
     },
     {
-      "uri": "02 - Default_normal.png"
+      "uri": "Default_normal.png"
     }
   ],
   "materials": [
