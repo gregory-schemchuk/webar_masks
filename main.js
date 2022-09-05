@@ -5,7 +5,7 @@ const SETTINGS = {
     cubeMapURL: 'Bridge2/',
     //offsetYZ: [0.3, 0], // offset of the model in 3D along vertical and depth axis
     //scale: 2.5
-    offsetYZ: [-0.3, -1], // offset of the model in 3D along vertical and depth axis
+    offsetYZ: [-2, -4], // offset of the model in 3D along vertical and depth axis
     scale: 70
 };
 
