@@ -3,8 +3,10 @@ const SETTINGS = {
     //gltfModelURL: 'DamagedHelmet/glTF/DamagedHelmet.gltf',
     gltfModelURL: 'head_test/koltsa.gltf',
     cubeMapURL: 'Bridge2/',
-    offsetYZ: [0.3, 0], // offset of the model in 3D along vertical and depth axis
-    scale: 2.5
+    //offsetYZ: [0.3, 0], // offset of the model in 3D along vertical and depth axis
+    //scale: 2.5
+    offsetYZ: [0, 0], // offset of the model in 3D along vertical and depth axis
+    scale: 70
 };
 
 let THREECAMERA = null;
