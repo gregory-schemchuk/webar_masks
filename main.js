@@ -6,7 +6,7 @@ const SETTINGS = {
     //offsetYZ: [0.3, 0], // offset of the model in 3D along vertical and depth axis
     //scale: 2.5
     offsetYZ: [-15, -25], // offset of the model in 3D along vertical and depth axis
-    scale: 30
+    scale: 50
 };
 
 let THREECAMERA = null;
