@@ -1,0 +1,199 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 42384,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 12534,
+      "max": [
+        148.612335205078,
+        175.707565307617,
+        135.758255004883
+      ],
+      "min": [
+        -148.612335205078,
+        -175.707565307617,
+        -135.758224487305
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 12534,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 12534,
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5126,
+      "count": 12534,
+      "type": "VEC2"
+    }
+  ],
+  "asset": {
+    "generator": "Adobe Substance 3D Painter 8.1.2",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 169536,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 150408,
+      "byteOffset": 169536,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 150408,
+      "byteOffset": 319944,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 200544,
+      "byteOffset": 470352,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 100272,
+      "byteOffset": 670896,
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 771168,
+      "uri": "koltsa.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "02 - Default_baseColor.png"
+    },
+    {
+      "uri": "02 - Default_occlusionRoughnessMetallic.png"
+    },
+    {
+      "uri": "02 - Default_normal.png"
+    }
+  ],
+  "materials": [
+    {
+      "alphaMode": "OPAQUE",
+      "name": "02 - Default",
+      "normalTexture": {
+        "index": 2
+      },
+      "occlusionTexture": {
+        "index": 1
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 1
+        }
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Visochnye_koltsa",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 2,
+            "POSITION": 1,
+            "TANGENT": 3,
+            "TEXCOORD_0": 4
+          },
+          "indices": 0,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        2
+      ],
+      "name": "Visochnye_koltsa",
+      "rotation": [
+        -0.70710676908493,
+        0.0,
+        0.0,
+        0.70710676908493
+      ],
+      "scale": [
+        0.100000001490116,
+        0.100000001490116,
+        0.100000001490116
+      ],
+      "translation": [
+        38.4495391845703,
+        40.818733215332,
+        -70.1119003295898
+      ]
+    },
+    {
+      "mesh": 0,
+      "name": "Visochnye_koltsa"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9985,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    }
+  ]
+}

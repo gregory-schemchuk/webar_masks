@@ -1,6 +1,7 @@
 // SETTINGS of this demo:
 const SETTINGS = {
-    gltfModelURL: 'DamagedHelmet/glTF/DamagedHelmet.gltf',
+    //gltfModelURL: 'DamagedHelmet/glTF/DamagedHelmet.gltf',
+    gltfModelURL: 'head_test/koltsa.gltf',
     cubeMapURL: 'Bridge2/',
     offsetYZ: [0.3, 0], // offset of the model in 3D along vertical and depth axis
     scale: 2.5
