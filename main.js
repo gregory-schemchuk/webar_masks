@@ -31,7 +31,7 @@ function init_threeScene(spec){
     gltfLoader.load( SETTINGS.gltfModelURL, function ( gltf ) {
         gltf.scene.traverse( function ( child ) {
             if ( child.isMesh ) {
-                //child.material.envMap = envMap;
+                child.material.envMap = envMap;
             }
         } );
         gltf.scene.frustumCulled = false;
