@@ -1,6 +1,7 @@
 // SETTINGS of this demo:
 const SETTINGS = {
-    gltfModelURL: 'DamagedHelmet/glTF/DamagedHelmet.gltf',
+    //gltfModelURL: 'DamagedHelmet/glTF/DamagedHelmet.gltf',
+    gltfModelURL: 'Kokoshnik/Unreal Engine 4.gltf',
     //gltfModelURL: 'head_test/koltsa.gltf',
     cubeMapURL: 'Bridge2/',
     offsetYZ: [0.3, 0], // offset of the model in 3D along vertical and depth axis
@@ -31,7 +32,7 @@ function init_threeScene(spec){
     gltfLoader.load( SETTINGS.gltfModelURL, function ( gltf ) {
         gltf.scene.traverse( function ( child ) {
             if ( child.isMesh ) {
-                child.material.envMap = envMap;
+                //child.material.envMap = envMap;
             }
         } );
         gltf.scene.frustumCulled = false;
