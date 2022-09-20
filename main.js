@@ -43,8 +43,7 @@ function init_threeScene(spec){
 
         // center the model:
         const centerBBox = bbox.getCenter(new THREE.Vector3());
-        //gltf.scene.position.add(centerBBox.multiplyScalar(-1));
-        gltf.scene.position.add(centerBBox);
+        gltf.scene.position.add(centerBBox.multiplyScalar(-1));
         gltf.scene.position.add(new THREE.Vector3(0,SETTINGS.offsetYZ[0], SETTINGS.offsetYZ[1]));
 
         // scale the model according to its width:
