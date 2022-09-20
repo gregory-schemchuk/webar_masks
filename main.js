@@ -5,7 +5,7 @@ const SETTINGS = {
     //gltfModelURL: 'head_test/koltsa.gltf',
     cubeMapURL: 'Bridge2/',
     //offsetYZ: [0.3, 0], // offset of the model in 3D along vertical and depth axis
-    offsetYZ: [0.3, 10], // offset of the model in 3D along vertical and depth axis
+    offsetYZ: [0.3, 7], // offset of the model in 3D along vertical and depth axis
     scale: 2.5
     //offsetYZ: [-1, -20], // offset of the model in 3D along vertical and depth axis
     //scale: 45
@@ -43,7 +43,8 @@ function init_threeScene(spec){
 
         // center the model:
         const centerBBox = bbox.getCenter(new THREE.Vector3());
-        gltf.scene.position.add(centerBBox.multiplyScalar(-1));
+        //gltf.scene.position.add(centerBBox.multiplyScalar(-1));
+        gltf.scene.position.add(centerBBox);
         gltf.scene.position.add(new THREE.Vector3(0,SETTINGS.offsetYZ[0], SETTINGS.offsetYZ[1]));
 
         // scale the model according to its width:
