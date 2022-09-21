@@ -5,8 +5,9 @@ const SETTINGS = {
     //gltfModelURL: 'head_test/koltsa.gltf',
     cubeMapURL: 'Bridge2/',
     //offsetYZ: [0.3, 0], // offset of the model in 3D along vertical and depth axis
+    //scale: 2.5
     offsetYZ: [0.3, 0.8], // offset of the model in 3D along vertical and depth axis
-    scale: 2.5
+    scale: 1.5
     //offsetYZ: [-1, -20], // offset of the model in 3D along vertical and depth axis
     //scale: 45
 };
