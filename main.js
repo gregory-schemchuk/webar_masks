@@ -55,6 +55,16 @@ function init_threeScene(spec){
         threeStuffs.faceObject.add(gltf.scene);
     } ); //end gltfLoader.load callback
 
+
+    // test object
+    const geometry = new THREE.SphereGeometry(1, 64, 32);
+    const cubeMaterial = new THREE.MeshNormalMaterial();
+    const threeCube = new THREE.Mesh(geometry, cubeMaterial);
+    threeCube.position.add(new THREE.Vector3(0,SETTINGS.offsetYZ[0], SETTINGS.offsetYZ[1]));
+    threeCube.frustumCulled = false;
+    threeStuffs.faceObject.add(threeCube);
+
+
     //CREATE THE CAMERA
     THREECAMERA = JeelizThreeHelper.create_camera();
 } //end init_threeScene()
