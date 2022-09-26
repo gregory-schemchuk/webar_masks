@@ -55,6 +55,8 @@ function init_threeScene(spec){
         threeStuffs.faceObject.add(gltf.scene);
     } ); //end gltfLoader.load callback
 
+    console.log("HERE");
+
     //CREATE THE CAMERA
     THREECAMERA = JeelizThreeHelper.create_camera();
 } //end init_threeScene()
