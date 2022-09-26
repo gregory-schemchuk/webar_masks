@@ -12,17 +12,6 @@ const SETTINGS = {
     //scale: 45
 };
 
-// SETTINGS of 2nd object
-const SETTINGS_OBJ_2 = {
-    cubeMapURL: 'Bridge2/',
-    //offsetYZ: [0.3, 0], // offset of the model in 3D along vertical and depth axis
-    //scale: 2.5
-    offsetYZ: [0, -3], // offset of the model in 3D along vertical and depth axis
-    scale: 4
-    //offsetYZ: [-1, -20], // offset of the model in 3D along vertical and depth axis
-    //scale: 45
-};
-
 let THREECAMERA = null;
 
 
@@ -65,25 +54,6 @@ function init_threeScene(spec){
         // dispatch the model:
         threeStuffs.faceObject.add(gltf.scene);
     } ); //end gltfLoader.load callback
-
-
-    // test object
-    const geometry = new THREE.SphereGeometry(1, 64, 32);
-    const cubeMaterial = new THREE.MeshNormalMaterial();
-    const threeCube = new THREE.Mesh(geometry, cubeMaterial);
-    threeCube.frustumCulled = false;
-    // center and scale the object:
-    const bbox = new THREE.Box3().expandByObject(threeCube);
-    // center the model:
-    const centerBBox = bbox.getCenter(new THREE.Vector3());
-    threeCube.position.add(centerBBox.multiplyScalar(-1));
-    threeCube.position.add(new THREE.Vector3(0,SETTINGS_OBJ_2.offsetYZ[0], SETTINGS_OBJ_2.offsetYZ[1]));
-    // scale the model according to its width:
-    const sizeX = bbox.getSize(new THREE.Vector3()).x;
-    threeCube.scale.multiplyScalar(SETTINGS_OBJ_2.scale / sizeX);
-    threeStuffs.faceObject.add(threeCube);
-    console.log("2nd object set");
-
 
     //CREATE THE CAMERA
     THREECAMERA = JeelizThreeHelper.create_camera();
