@@ -17,8 +17,8 @@ const SETTINGS_OBJ_2 = {
     cubeMapURL: 'Bridge2/',
     //offsetYZ: [0.3, 0], // offset of the model in 3D along vertical and depth axis
     //scale: 2.5
-    offsetYZ: [0, 0], // offset of the model in 3D along vertical and depth axis
-    scale: 4.5
+    offsetYZ: [0, -3], // offset of the model in 3D along vertical and depth axis
+    scale: 4
     //offsetYZ: [-1, -20], // offset of the model in 3D along vertical and depth axis
     //scale: 45
 };
@@ -82,6 +82,7 @@ function init_threeScene(spec){
     const sizeX = bbox.getSize(new THREE.Vector3()).x;
     threeCube.scale.multiplyScalar(SETTINGS_OBJ_2.scale / sizeX);
     threeStuffs.faceObject.add(threeCube);
+    console.log("2nd object set");
 
 
     //CREATE THE CAMERA
