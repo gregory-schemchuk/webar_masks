@@ -12,6 +12,17 @@ const SETTINGS = {
     //scale: 45
 };
 
+// SETTINGS of 2nd object
+const SETTINGS_OBJ_2 = {
+    cubeMapURL: 'Bridge2/',
+    //offsetYZ: [0.3, 0], // offset of the model in 3D along vertical and depth axis
+    //scale: 2.5
+    offsetYZ: [0, 0], // offset of the model in 3D along vertical and depth axis
+    scale: 4.5
+    //offsetYZ: [-1, -20], // offset of the model in 3D along vertical and depth axis
+    //scale: 45
+};
+
 let THREECAMERA = null;
 
 
@@ -60,8 +71,16 @@ function init_threeScene(spec){
     const geometry = new THREE.SphereGeometry(1, 64, 32);
     const cubeMaterial = new THREE.MeshNormalMaterial();
     const threeCube = new THREE.Mesh(geometry, cubeMaterial);
-    threeCube.position.add(new THREE.Vector3(0,SETTINGS.offsetYZ[0], SETTINGS.offsetYZ[1]));
     threeCube.frustumCulled = false;
+    // center and scale the object:
+    const bbox = new THREE.Box3().expandByObject(threeCube);
+    // center the model:
+    const centerBBox = bbox.getCenter(new THREE.Vector3());
+    threeCube.position.add(centerBBox.multiplyScalar(-1));
+    threeCube.position.add(new THREE.Vector3(0,SETTINGS_OBJ_2.offsetYZ[0], SETTINGS_OBJ_2.offsetYZ[1]));
+    // scale the model according to its width:
+    const sizeX = bbox.getSize(new THREE.Vector3()).x;
+    threeCube.scale.multiplyScalar(SETTINGS_OBJ_2.scale / sizeX);
     threeStuffs.faceObject.add(threeCube);
 
 
