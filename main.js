@@ -7,7 +7,7 @@ const SETTINGS = {
     offsetYZ: [0.3, 0], // offset of the model in 3D along vertical and depth axis
     //scale: 2.5
     //offsetYZ: [2.7, -0.6], // offset of the model in 3D along vertical and depth axis
-    scale: 2.2
+    scale: 2.5
     //offsetYZ: [-1, -20], // offset of the model in 3D along vertical and depth axis
     //scale: 45
 };
@@ -54,8 +54,6 @@ function init_threeScene(spec){
         // dispatch the model:
         threeStuffs.faceObject.add(gltf.scene);
     } ); //end gltfLoader.load callback
-
-    console.log("HERE");
 
     //CREATE THE CAMERA
     THREECAMERA = JeelizThreeHelper.create_camera();
