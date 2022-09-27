@@ -76,7 +76,8 @@ function start(){
             'idealWidth': 1280,  // ideal video width in pixels
             'idealHeight': 800,  // ideal video height in pixels
             'maxWidth': 1920,    // max video width in pixels
-            'maxHeight': 1920    // max video height in pixels
+            'maxHeight': 1920,    // max video height in pixels
+            'flipX': true
         },
         followZRot: true,
         canvasId: 'jeeFaceFilterCanvas',
