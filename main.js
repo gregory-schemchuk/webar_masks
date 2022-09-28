@@ -5,7 +5,7 @@ const SETTINGS = {
     //gltfModelURL: 'Kokoshnik/Unreal Engine 4.gltf',
     //gltfModelURL: 'head_test/koltsa.gltf',
     cubeMapURL: 'Bridge2/',
-    offsetYZ: [2.1, 0.5], // offset of the model in 3D along vertical and depth axis
+    offsetYZ: [2.15, 0.8], // offset of the model in 3D along vertical and depth axis
     //scale: 2.5
     //offsetYZ: [2.7, -0.6], // offset of the model in 3D along vertical and depth axis
     scale: 3.3
