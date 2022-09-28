@@ -8,8 +8,7 @@
         {
             "name" : "Scene",
             "nodes" : [
-                0,
-                1
+                0
             ]
         }
     ],
@@ -17,26 +16,6 @@
         {
             "mesh" : 0,
             "name" : "polySurface30.003",
-            "rotation" : [
-                0.7071068286895752,
-                0,
-                0,
-                0.7071067094802856
-            ],
-            "scale" : [
-                0.009999999776482582,
-                0.009999997913837433,
-                0.009999997913837433
-            ],
-            "translation" : [
-                0.36338043212890625,
-                27.592967987060547,
-                3.5880136489868164
-            ]
-        },
-        {
-            "mesh" : 1,
-            "name" : "polySurface30.658",
             "rotation" : [
                 0.7071068286895752,
                 0,
@@ -122,12 +101,7 @@
                     },
                     "indices" : 3,
                     "material" : 0
-                }
-            ]
-        },
-        {
-            "name" : "polySurface30.005",
-            "primitives" : [
+                },
                 {
                     "attributes" : {
                         "POSITION" : 4,
@@ -178,42 +152,42 @@
         {
             "mimeType" : "image/jpeg",
             "name" : "Image_3",
-            "uri" : "koko/Image_3.jpg"
+            "uri" : "kokoshnik/Image_3.jpg"
         },
         {
             "mimeType" : "image/jpeg",
             "name" : "Image_2",
-            "uri" : "koko/Image_2.jpg"
+            "uri" : "kokoshnik/Image_2.jpg"
         },
         {
             "mimeType" : "image/jpeg",
             "name" : "Image_1",
-            "uri" : "koko/Image_1.jpg"
+            "uri" : "kokoshnik/Image_1.jpg"
         },
         {
             "mimeType" : "image/png",
             "name" : "Image_0",
-            "uri" : "koko/Image_0.png"
+            "uri" : "kokoshnik/Image_0.png"
         },
         {
             "mimeType" : "image/png",
             "name" : "Image_3",
-            "uri" : "koko/Image_3-1.png"
+            "uri" : "kokoshnik/Image_3-1.png"
         },
         {
             "mimeType" : "image/png",
             "name" : "Image_2",
-            "uri" : "koko/Image_2-1.png"
+            "uri" : "kokoshnik/Image_2-1.png"
         },
         {
             "mimeType" : "image/png",
             "name" : "Image_1",
-            "uri" : "koko/Image_1-1.png"
+            "uri" : "kokoshnik/Image_1-1.png"
         },
         {
             "mimeType" : "image/png",
             "name" : "Image_0",
-            "uri" : "koko/Image_0-1.png"
+            "uri" : "kokoshnik/Image_0-1.png"
         }
     ],
     "accessors" : [
@@ -254,15 +228,15 @@
         {
             "bufferView" : 4,
             "componentType" : 5126,
-            "count" : 18022,
+            "count" : 18027,
             "max" : [
                 1648.944091796875,
-                771.1113891601562,
+                771.1114501953125,
                 1364.30810546875
             ],
             "min" : [
                 -1672.072265625,
-                -369.5216064453125,
+                -369.5215759277344,
                 -1986.4346923828125
             ],
             "type" : "VEC3"
@@ -270,13 +244,13 @@
         {
             "bufferView" : 5,
             "componentType" : 5126,
-            "count" : 18022,
+            "count" : 18027,
             "type" : "VEC3"
         },
         {
             "bufferView" : 6,
             "componentType" : 5126,
-            "count" : 18022,
+            "count" : 18027,
             "type" : "VEC2"
         },
         {
@@ -313,26 +287,26 @@
         },
         {
             "buffer" : 0,
-            "byteLength" : 216264,
+            "byteLength" : 216324,
             "byteOffset" : 3060,
             "target" : 34962
         },
         {
             "buffer" : 0,
-            "byteLength" : 216264,
-            "byteOffset" : 219324,
+            "byteLength" : 216324,
+            "byteOffset" : 219384,
             "target" : 34962
         },
         {
             "buffer" : 0,
-            "byteLength" : 144176,
-            "byteOffset" : 435588,
+            "byteLength" : 144216,
+            "byteOffset" : 435708,
             "target" : 34962
         },
         {
             "buffer" : 0,
             "byteLength" : 72462,
-            "byteOffset" : 579764,
+            "byteOffset" : 579924,
             "target" : 34963
         }
     ],
@@ -344,8 +318,8 @@
     ],
     "buffers" : [
         {
-            "byteLength" : 652228,
-            "uri" : "koko_test.bin"
+            "byteLength" : 652388,
+            "uri" : "kokoshnik.bin"
         }
     ]
 }
