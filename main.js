@@ -54,6 +54,12 @@ function init_threeScene(spec){
 
         // dispatch the model:
         threeStuffs.faceObject.add(gltf.scene);
+
+        const light_2 = new THREE.DirectionalLight(0xFFFFFF);
+        light_2.position.set(10, 10, 20)
+        light_2.intensity = 3
+        light_2.castShadow = true;
+        threeStuffs.faceObject.add(light_2)
     } ); //end gltfLoader.load callback
 
     //CREATE THE CAMERA
