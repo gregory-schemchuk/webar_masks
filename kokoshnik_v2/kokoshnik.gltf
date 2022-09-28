@@ -1,5 +1,6 @@
 {
     "asset" : {
+        "copyright" : "kokoshnik",
         "generator" : "Khronos glTF Blender I/O v3.3.27",
         "version" : "2.0"
     },
@@ -15,28 +16,11 @@
     "nodes" : [
         {
             "mesh" : 0,
-            "name" : "polySurface30.003",
-            "rotation" : [
-                0.7071068286895752,
-                0,
-                0,
-                0.7071067094802856
-            ],
-            "scale" : [
-                0.009999999776482582,
-                0.009999997913837433,
-                0.009999997913837433
-            ],
-            "translation" : [
-                0.36338043212890625,
-                27.592967987060547,
-                3.5880136489868164
-            ]
+            "name" : "polySurface30.003"
         }
     ],
     "materials" : [
         {
-            "alphaMode" : "BLEND",
             "doubleSided" : true,
             "emissiveFactor" : [
                 1,
@@ -46,7 +30,7 @@
             "emissiveTexture" : {
                 "index" : 0
             },
-            "name" : "light",
+            "name" : "kokoshnik",
             "normalTexture" : {
                 "index" : 1
             },
@@ -59,32 +43,6 @@
                 },
                 "metallicRoughnessTexture" : {
                     "index" : 2
-                }
-            }
-        },
-        {
-            "doubleSided" : true,
-            "emissiveFactor" : [
-                1,
-                1,
-                1
-            ],
-            "emissiveTexture" : {
-                "index" : 4
-            },
-            "name" : "kokoshnik",
-            "normalTexture" : {
-                "index" : 5
-            },
-            "occlusionTexture" : {
-                "index" : 6
-            },
-            "pbrMetallicRoughness" : {
-                "baseColorTexture" : {
-                    "index" : 7
-                },
-                "metallicRoughnessTexture" : {
-                    "index" : 6
                 }
             }
         }
@@ -101,15 +59,6 @@
                     },
                     "indices" : 3,
                     "material" : 0
-                },
-                {
-                    "attributes" : {
-                        "POSITION" : 4,
-                        "NORMAL" : 5,
-                        "TEXCOORD_0" : 6
-                    },
-                    "indices" : 7,
-                    "material" : 1
                 }
             ]
         }
@@ -130,131 +79,61 @@
         {
             "sampler" : 0,
             "source" : 3
-        },
-        {
-            "sampler" : 0,
-            "source" : 4
-        },
-        {
-            "sampler" : 0,
-            "source" : 5
-        },
-        {
-            "sampler" : 0,
-            "source" : 6
-        },
-        {
-            "sampler" : 0,
-            "source" : 7
         }
     ],
     "images" : [
         {
-            "mimeType" : "image/jpeg",
-            "name" : "Image_3",
-            "uri" : "kokoshnik/Image_3.jpg"
-        },
-        {
-            "mimeType" : "image/jpeg",
-            "name" : "Image_2",
-            "uri" : "kokoshnik/Image_2.jpg"
-        },
-        {
-            "mimeType" : "image/jpeg",
-            "name" : "Image_1",
-            "uri" : "kokoshnik/Image_1.jpg"
+            "mimeType" : "image/png",
+            "name" : "Image_3-1",
+            "uri" : "Image_3-1.png"
         },
         {
             "mimeType" : "image/png",
-            "name" : "Image_0",
-            "uri" : "kokoshnik/Image_0.png"
+            "name" : "Image_2-1",
+            "uri" : "Image_2-1.png"
         },
         {
             "mimeType" : "image/png",
-            "name" : "Image_3",
-            "uri" : "kokoshnik/Image_3-1.png"
+            "name" : "Image_1-1",
+            "uri" : "Image_1-1.png"
         },
         {
             "mimeType" : "image/png",
-            "name" : "Image_2",
-            "uri" : "kokoshnik/Image_2-1.png"
-        },
-        {
-            "mimeType" : "image/png",
-            "name" : "Image_1",
-            "uri" : "kokoshnik/Image_1-1.png"
-        },
-        {
-            "mimeType" : "image/png",
-            "name" : "Image_0",
-            "uri" : "kokoshnik/Image_0-1.png"
+            "name" : "Image_0-1",
+            "uri" : "Image_0-1.png"
         }
     ],
     "accessors" : [
         {
             "bufferView" : 0,
             "componentType" : 5126,
-            "count" : 90,
+            "count" : 18077,
             "max" : [
-                2143.2724609375,
-                -1460.635498046875,
-                2097.12353515625
+                4.301112174987793,
+                5.181422710418701,
+                2.011369466781616
             ],
             "min" : [
-                -2207.42529296875,
-                -1460.63720703125,
-                -2403.15771484375
+                -4.361440181732178,
+                -3.5586659908294678,
+                -0.9638611078262329
             ],
             "type" : "VEC3"
         },
         {
             "bufferView" : 1,
             "componentType" : 5126,
-            "count" : 90,
+            "count" : 18077,
             "type" : "VEC3"
         },
         {
             "bufferView" : 2,
             "componentType" : 5126,
-            "count" : 90,
+            "count" : 18077,
             "type" : "VEC2"
         },
         {
             "bufferView" : 3,
-            "componentType" : 5123,
-            "count" : 90,
-            "type" : "SCALAR"
-        },
-        {
-            "bufferView" : 4,
-            "componentType" : 5126,
-            "count" : 18027,
-            "max" : [
-                1648.944091796875,
-                771.1114501953125,
-                1364.30810546875
-            ],
-            "min" : [
-                -1672.072265625,
-                -369.5215759277344,
-                -1986.4346923828125
-            ],
-            "type" : "VEC3"
-        },
-        {
-            "bufferView" : 5,
-            "componentType" : 5126,
-            "count" : 18027,
-            "type" : "VEC3"
-        },
-        {
-            "bufferView" : 6,
-            "componentType" : 5126,
-            "count" : 18027,
-            "type" : "VEC2"
-        },
-        {
-            "bufferView" : 7,
             "componentType" : 5123,
             "count" : 36231,
             "type" : "SCALAR"
@@ -263,50 +142,26 @@
     "bufferViews" : [
         {
             "buffer" : 0,
-            "byteLength" : 1080,
+            "byteLength" : 216924,
             "byteOffset" : 0,
             "target" : 34962
         },
         {
             "buffer" : 0,
-            "byteLength" : 1080,
-            "byteOffset" : 1080,
+            "byteLength" : 216924,
+            "byteOffset" : 216924,
             "target" : 34962
         },
         {
             "buffer" : 0,
-            "byteLength" : 720,
-            "byteOffset" : 2160,
-            "target" : 34962
-        },
-        {
-            "buffer" : 0,
-            "byteLength" : 180,
-            "byteOffset" : 2880,
-            "target" : 34963
-        },
-        {
-            "buffer" : 0,
-            "byteLength" : 216324,
-            "byteOffset" : 3060,
-            "target" : 34962
-        },
-        {
-            "buffer" : 0,
-            "byteLength" : 216324,
-            "byteOffset" : 219384,
-            "target" : 34962
-        },
-        {
-            "buffer" : 0,
-            "byteLength" : 144216,
-            "byteOffset" : 435708,
+            "byteLength" : 144616,
+            "byteOffset" : 433848,
             "target" : 34962
         },
         {
             "buffer" : 0,
             "byteLength" : 72462,
-            "byteOffset" : 579924,
+            "byteOffset" : 578464,
             "target" : 34963
         }
     ],
@@ -318,7 +173,7 @@
     ],
     "buffers" : [
         {
-            "byteLength" : 652388,
+            "byteLength" : 650928,
             "uri" : "kokoshnik.bin"
         }
     ]
