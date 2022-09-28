@@ -21,6 +21,7 @@ function init_threeScene(spec){
     const threeStuffs = JeelizThreeHelper.init(spec, null);
 
     // CREATE THE ENVMAP:
+    /*
     const path = SETTINGS.cubeMapURL;
     const format = '.jpg';
     const envMap = new THREE.CubeTextureLoader().load( [
@@ -28,6 +29,7 @@ function init_threeScene(spec){
         path + 'posy' + format, path + 'negy' + format,
         path + 'posz' + format, path + 'negz' + format
     ] );
+     */
 
     // IMPORT THE GLTF MODEL:
     // from https://threejs.org/examples/#webgl_loader_gltf
