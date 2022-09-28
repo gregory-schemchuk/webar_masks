@@ -5,10 +5,10 @@ const SETTINGS = {
     //gltfModelURL: 'Kokoshnik/Unreal Engine 4.gltf',
     //gltfModelURL: 'head_test/koltsa.gltf',
     cubeMapURL: 'Bridge2/',
-    offsetYZ: [2, 1], // offset of the model in 3D along vertical and depth axis
+    offsetYZ: [2.1, 0], // offset of the model in 3D along vertical and depth axis
     //scale: 2.5
     //offsetYZ: [2.7, -0.6], // offset of the model in 3D along vertical and depth axis
-    scale: 3.3
+    scale: 3.2
     //offsetYZ: [-1, -20], // offset of the model in 3D along vertical and depth axis
     //scale: 45
 };
@@ -56,10 +56,10 @@ function init_threeScene(spec){
         threeStuffs.faceObject.add(gltf.scene);
 
         const light_2 = new THREE.DirectionalLight(0xFFFFFF);
-        light_2.position.set(10, 10, 20)
-        light_2.intensity = 3
-        light_2.castShadow = true;
-        threeStuffs.faceObject.add(light_2)
+        light_2.position.set(10, 10, 20);
+        //light_2.intensity = 3
+        //light_2.castShadow = true;
+        threeStuffs.faceObject.add(light_2);
     } ); //end gltfLoader.load callback
 
     //CREATE THE CAMERA
