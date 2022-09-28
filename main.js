@@ -1,6 +1,6 @@
 // SETTINGS of this demo:
 const SETTINGS = {
-    gltfModelURL: 'kokoshnik_v2/Untitled.gltf',
+    gltfModelURL: 'kokoshnik_v2/kokoshnik.gltf',
     //gltfModelURL: 'DamagedHelmet/glTF/DamagedHelmet.gltf',
     //gltfModelURL: 'Kokoshnik/Unreal Engine 4.gltf',
     //gltfModelURL: 'head_test/koltsa.gltf',
