@@ -65,7 +65,7 @@ function init_threeScene(spec){
 
         const light_2 = new THREE.DirectionalLight(0xFFFFFF);
         light_2.position.set(0, 10, 100);
-        light_2.intensity = 2
+        light_2.intensity = 4
         //light_2.castShadow = true;
         threeStuffs.faceObject.add(light_2);
     } ); //end gltfLoader.load callback
