@@ -1,0 +1,308 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v3.3.27",
+        "version" : "2.0"
+    },
+    "extensionsUsed" : [
+        "KHR_materials_specular",
+        "KHR_materials_ior"
+    ],
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "tiara",
+            "scale" : [
+                6.427645683288574,
+                1.8743996620178223,
+                6.427645683288574
+            ],
+            "translation" : [
+                0,
+                22.181241989135742,
+                -0.09313912689685822
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "extensions" : {
+                "KHR_materials_specular" : {
+                    "specularColorFactor" : [
+                        2.371357614441398,
+                        2.371357614441398,
+                        2.371357614441398
+                    ]
+                },
+                "KHR_materials_ior" : {
+                    "ior" : 1.4500000476837158
+                }
+            },
+            "name" : "silver",
+            "normalTexture" : {
+                "index" : 0
+            },
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 1
+                },
+                "metallicRoughnessTexture" : {
+                    "index" : 2
+                }
+            }
+        },
+        {
+            "doubleSided" : true,
+            "name" : "red",
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 3
+                },
+                "metallicRoughnessTexture" : {
+                    "index" : 4
+                }
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Cylinder.299",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2,
+                        "TEXCOORD_1" : 3
+                    },
+                    "indices" : 4,
+                    "material" : 0
+                },
+                {
+                    "attributes" : {
+                        "POSITION" : 5,
+                        "NORMAL" : 6,
+                        "TEXCOORD_0" : 7,
+                        "TEXCOORD_1" : 8
+                    },
+                    "indices" : 9,
+                    "material" : 1
+                }
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "sampler" : 0,
+            "source" : 0
+        },
+        {
+            "sampler" : 0,
+            "source" : 1
+        },
+        {
+            "sampler" : 0,
+            "source" : 2
+        },
+        {
+            "sampler" : 0,
+            "source" : 3
+        },
+        {
+            "sampler" : 0,
+            "source" : 4
+        }
+    ],
+    "images" : [
+        {
+            "mimeType" : "image/png",
+            "name" : "silver_normal",
+            "uri" : "silver_normal.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "silver_baseColor-silver_occlusionRoughnessMetallic",
+            "uri" : "silver_baseColor-silver_occlusionRoughnessMetallic.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "silver_occlusionRoughnessMetallic",
+            "uri" : "silver_occlusionRoughnessMetallic.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "red_baseColor",
+            "uri" : "red_baseColor.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "red_occlusionRoughnessMetallic",
+            "uri" : "red_occlusionRoughnessMetallic.png"
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 214184,
+            "max" : [
+                1.0978678464889526,
+                2.948093891143799,
+                1.4325482845306396
+            ],
+            "min" : [
+                -1.0813038349151611,
+                -0.4386550486087799,
+                -0.624585747718811
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 214184,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 214184,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5126,
+            "count" : 214184,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5125,
+            "count" : 818544,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 5,
+            "componentType" : 5126,
+            "count" : 9280,
+            "max" : [
+                1.0159605741500854,
+                2.5660338401794434,
+                1.413609266281128
+            ],
+            "min" : [
+                -0.990247905254364,
+                -0.07026056945323944,
+                0.721582293510437
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 6,
+            "componentType" : 5126,
+            "count" : 9280,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 7,
+            "componentType" : 5126,
+            "count" : 9280,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 8,
+            "componentType" : 5126,
+            "count" : 9280,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 9,
+            "componentType" : 5123,
+            "count" : 38064,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 2570208,
+            "byteOffset" : 0,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 2570208,
+            "byteOffset" : 2570208,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 1713472,
+            "byteOffset" : 5140416,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 1713472,
+            "byteOffset" : 6853888,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 3274176,
+            "byteOffset" : 8567360,
+            "target" : 34963
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 111360,
+            "byteOffset" : 11841536,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 111360,
+            "byteOffset" : 11952896,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 74240,
+            "byteOffset" : 12064256,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 74240,
+            "byteOffset" : 12138496,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 76128,
+            "byteOffset" : 12212736,
+            "target" : 34963
+        }
+    ],
+    "samplers" : [
+        {
+            "magFilter" : 9729,
+            "minFilter" : 9987
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 12288864,
+            "uri" : "tiara.bin"
+        }
+    ]
+}
