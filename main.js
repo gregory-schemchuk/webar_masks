@@ -13,7 +13,7 @@ const SETTINGS = {
     //offsetYZ: [-1, -20], // offset of the model in 3D along vertical and depth axis
     //scale: 45
     offsetYZ: [23.3, 2],
-    scale: 1.41
+    scale: 1.43
 };
 
 let THREECAMERA = null;
@@ -65,7 +65,7 @@ function init_threeScene(spec){
 
         const light_2 = new THREE.DirectionalLight(0xFFFFFF);
         light_2.position.set(0, 10, 100);
-        light_2.intensity = 1.4
+        light_2.intensity = 2
         //light_2.castShadow = true;
         threeStuffs.faceObject.add(light_2);
     } ); //end gltfLoader.load callback
