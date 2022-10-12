@@ -1,8 +1,8 @@
 // SETTINGS of this demo:
 const SETTINGS = {
-    gltfModelURL: 'tiara/tiara.gltf',
+    //gltfModelURL: 'tiara/tiara.gltf',
     //gltfModelURL: 'kokoshnik_v2/kokoshnik.gltf',
-    //gltfModelURL: 'DamagedHelmet/glTF/DamagedHelmet.gltf',
+    gltfModelURL: 'DamagedHelmet/glTF/DamagedHelmet.gltf',
     //gltfModelURL: 'Kokoshnik/Unreal Engine 4.gltf',
     //gltfModelURL: 'head_test/koltsa.gltf',
     cubeMapURL: 'Bridge2/',
@@ -12,8 +12,10 @@ const SETTINGS = {
     //scale: 1.315
     //offsetYZ: [-1, -20], // offset of the model in 3D along vertical and depth axis
     //scale: 45
-    offsetYZ: [23.3, 2],
-    scale: 1.43
+    //offsetYZ: [23.3, 2],
+    //scale: 1.43
+    offsetYZ: [0.3, 0], // offset of the model in 3D along vertical and depth axis
+    scale: 2.5
 };
 
 let THREECAMERA = null;
